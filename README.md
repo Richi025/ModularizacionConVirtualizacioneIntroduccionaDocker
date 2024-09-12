@@ -4,6 +4,7 @@
 
 The project is a distributed application for log management, designed with a Docker-based container architecture, deployed on AWS EC2, and utilizing several key services to process and store log messages sent by users through a web interface. The solution is deployed on AWS, using Docker to containerize the services and MongoDB for persistent storage.
 
+![Demo GIF](images/Diseño%20sin%20título.gif)
 
 ## Starting
 
@@ -83,10 +84,14 @@ Once you have the cloned project in your repository. Follow the steps below to l
 
   ![imgTable1.png](images/imageLocal.png)
 
+
+
 * http://localhost:8080/index.html
 
 
 6. You can to access the project on AWS **The url can change over time**
+
+    ![img.png](images/imageAWScon.png)
 
     ![img.png](images/imageAWS.png)
 
@@ -100,10 +105,15 @@ To run the tests you can use the following Maven command
 mvn test
 ```
 
+
+
 The following image if the execution of test.
 
 ![img.png](images/imageTest.png)
 
+The following image the docker containers.
+
+![img.png](images/imageDocker.png)
 
 ## Arquitecture
 
@@ -191,7 +201,7 @@ We use [Git](https://github.com/) for version control. For available versions, s
 
 ## Date
 
-Wednesday, September 09, 2024
+Wednesday, September 11, 2024
 
 ## License
 
